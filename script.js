@@ -57,4 +57,14 @@ $(function() {
   $('.btn-view-more').click(function() {
     $('.company-info-more').toggle()
   });
+
+  /*goods detail slider*/
+  $('.goods-detail-slider').slick({
+    slidesToShow: 1,
+    dots: true,
+    arrows: true,
+    slideToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
 });
